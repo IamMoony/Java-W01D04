@@ -13,8 +13,8 @@ public class Advanced_A5 {
 
         int score = 0;
 
-        for(int i = 0; i < array.length; i++){
-            if(array[i] == n){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == n) {
                 score++;
             }
         }
@@ -28,27 +28,26 @@ public class Advanced_A5 {
         System.out.println("The number exists " + score + " times in this array!");
 
         //Simon
-        int[] num ={1, 2, 2, 3, 4, 5, 41, 23, 22, 44, 55, 67};
+        int[] num = {1, 2, 2, 3, 4, 5, 41, 23, 22, 44, 55, 67};
 
-        Scanner insert = new Scanner (System.in);
+        Scanner insert = new Scanner(System.in);
 
         System.out.println("Enter the number you want to find: ");
         int toFind = insert.nextInt();
         boolean found = false;
         int score2 = 0;
 
-        for(int i=0; i<num.length; i++) {
-            if(num[i] == toFind) {
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] == toFind) {
                 found = true;
                 score2++;
             }
         }
-        if(found){
+        if (found) {
             System.out.println("Your number was found " + score2 + " times");
         } else {
             System.out.println("Your number was not found");
+        }
+
     }
-
-
-
 }
