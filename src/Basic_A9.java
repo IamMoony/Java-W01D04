@@ -13,9 +13,6 @@ public class Basic_A9 {
 
         System.out.println(average);
 
-<<<<<<< HEAD
-=======
-
 
         double minval = temperature[0];
 
@@ -39,7 +36,6 @@ public class Basic_A9 {
         }
 
         System.out.println(maxval);
-
->>>>>>> 375a291f9f3fa075c82e420e62f8a3a104effab1
+        
     }
 }
