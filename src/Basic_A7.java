@@ -4,7 +4,7 @@ public class Basic_A7 {
 
         for(int i=0; i< ints.length; i++){
 
-            System.out.println(i);
+            System.out.println(ints[i]);
 
         }
     }
