@@ -4,18 +4,18 @@ public class Intermediate_A3 {
 
     public static void main (String[] args) {
 
+        Scanner insert = new Scanner (System.in);
 
-    Scanner insert = new Scanner (System.in);
-         System.out.println("Geben Sie die erste Zahl ein: ");
+        System.out.println("Enter the first number: ");
+        int n = insert.nextInt();
 
-    int variable = insert.nextInt();
+        System.out.println("Enter the second number: ");
+        int m = insert.nextInt();
 
-         System.out.println("Geben Sie die zweite Zahl ein: ");
-
-    int varaible2 = insert.nextInt();
-
-         for( i)
-
+        for (int i = n; i < m; i++){
+            if (i%2 != 0){
+                System.out.print(i + " ");
+            }
+        }
     }
-
 }
