@@ -36,6 +36,6 @@ public class Basic_A9 {
         }
 
         System.out.println(maxval);
-        
+
     }
 }
